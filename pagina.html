@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laptos</title>
+    <link rel="stylesheet" href="/perik.css">
+</head>
+<body>
+    
+    <header>
+
+ <h1 class="logo">LAPTOPS GAMER</h1>
+                   <!---------------tipo de letra--------------- -->
+        <enlace href="https://fonts.cdnfonts.com/css/sinister-sunday" rel="hoja de estilo">
+           <style>
+                  @import url('https://fonts.cdnfonts.com/css/sinister-sunday');
+           </style>
+           
+        
+ <ul> <li><a href="#">MENU</a></li>
+ 
+      <li><a href="#">MONTO</a></li>
+      <li><a href="#">MANIAS</a></li>
+      <li><a href="#">EVENTOS</a></li>
+ 
+ </ul>
+     </header>
+        
+
+<!-- bloqueo del clik derecho-->
+     <script>
+               
+        document.oncontextmenu = function (bloqueo) {
+         bloqueo.preventDefault();
+         alert("Bloqueado :)");
+        }
+     </script>
+
+<!--  imagenes  -->
+<div>
+
+    <img class="imagenes" src="/img/flecha-circulo-abajo_20.png"  height="200" width="123px">
+</div>
+
+
+
+
+<!--insertador  img-->
+<to id="editor">
+<div>
+    <img id="img" src="/img/cursorarayo.gif"  height="240" width="523px">
+</div>
+<input id="input" type="file">
+</to>
+     <style>
+        #editor{
+           position: absolute;
+           top: 332vh;
+           left: 63vh;
+           margin: 23vh  13vh  13vh 23vh;
+           padding: 53px;
+           background-color: rgb(151, 82, 82);
+        }
+           #img{
+            background-color: #8fa02c;
+             }
+           #input{
+              color: rgb(74, 131, 131);
+              background-color: #62d818;
+           
+           }
+          </style>
+
+<script>
+    let img = document.getElementById('img');
+    let input = document.getElementbyId('input');
+
+    input.onchange = (e) => {
+        if (input.files[0])
+        img.src = URL.createObjetURL(input.files[0]);
+    };
+</script>
+
+<!-- -------------------------------------------------------------------------------------------------->
+
+
+        <!--efecto de caida de las letras -->
+
+
+
+        <div class="caida_letra">
+            <h2>VIENVENIDOS</h2>
+            
+          </div>
+          
+          
+
+
+
+
+ <main>
+        
+        <div class="description">
+                
+              <h2>LAPTOPS</h2> <p>tipos de laptos que puedes elegir a tu gusto conpralo ya </p>
+                
+                       <!--boton-->
+                   <button>MAS INF</button>
+                
+         </div>
+        
+               <!--Imagen flotante -->  
+          <div class="icon">
+                
+              <img src="/img/portada2..png">
+                
+          </div>
+                
+  </main>
+
+   <!--tipo de letra --> 
+   <link href="https://fonts.cdnfonts.com/css/malvinas" rel="stylesheet">
+      <style>
+           @import url('https://fonts.cdnfonts.com/css/malvinas');
+      </style>
+    
+        
+<!-- --------------------------------------------------->
+     <section>
+
+            <h3>the most requested</h3> <div class="food">
+            
+            <div class="food-chicken">
+            
+            <img src="/img/ori_3601749_famjroeaiefv71ktsi9oy16dprmda29rgox435dz_anugrah-font.jpg" height="92px" width="89px">
+            
+            <h5>Fried chicken</h5>
+            
+            <button>Buy</button>
+            
+            </div>
+            
+            <div class="food-chicken">
+            
+            <img src="/img/png-clipart-mitsudomoe-anime-santa-claus-anime-manga-anime-music-video.png" height="92px" width="89px"> <h5>Kiev chicken</h5>
+            
+            <button>Buy</button>
+            
+            </div>
+            
+            <div class="food-chicken">
+            
+            <img src="/img/visualstudio.png" height="92px" width="89px">
+            
+            <h5>Nuggets</h5>
+            
+            <button>Buy</button>
+            
+            </div>
+            
+            </div>
+            
+            </section>
+   <!-- -------------------------------------------------------> 
+            <div class="delivery"> <div class="icon-delivery">
+            
+            <p>Delivery</p>
+            
+            <img src="/img/R.jfif" height="92px" width="89px">
+            
+            </div>
+            
+            <h6>In addition to offering a wide variety of tempting we also provide the convenience and convenience of dir services to your home. We want to make your cooking e even easier and more convenient.
+            
+            </h6> </div>
+            
+            <footer>
+            
+            <h4>terms of use and privacy</h4>
+            
+            </footer>
+
+
+      
+    
+</body>
+</html>
